@@ -104,4 +104,4 @@ decisões documentadas. Ainda erro, mas cada projeto sai mais bem feito que o an
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/pablo-henrique-oliveira-7a4610227/) · [GitHub](https://github.com/PabloHoDev)
+[Sobre mim](https://pablohodev.github.io/PabloHoDev/) · [LinkedIn](https://www.linkedin.com/in/pablo-henrique-oliveira-7a4610227/) · [GitHub](https://github.com/PabloHoDev)
