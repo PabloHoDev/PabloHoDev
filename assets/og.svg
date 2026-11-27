@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Fonte da imagem de prévia (docs/og.png). Estática: prévias de link não animam. -->
+  <style>
+    .mono { font-family: ui-monospace, "Cascadia Code", Consolas, "Liberation Mono", monospace; font-size: 30px; }
+    .prompt { fill: #3ddbb5; }
+    .cmd { fill: #e6edf3; }
+    .out { fill: #9aa7b4; }
+    .name { fill: #ffffff; font-size: 52px; font-weight: 700; }
+    .tab { fill: #6e7681; font-size: 22px; }
+  </style>
+  <rect width="1200" height="630" fill="#0b0f14"/>
+  <rect x="40.5" y="40.5" width="1119" height="549" rx="16" fill="#0f1419" stroke="#263241" stroke-width="2"/>
+  <path d="M41 104 H1159" stroke="#263241" stroke-width="2"/>
+  <text x="76" y="81" class="mono tab">pablo@dev: ~</text>
+  <g class="mono">
+    <text x="80" y="170"><tspan class="prompt">~ $</tspan><tspan class="cmd"> whoami</tspan></text>
+    <text x="80" y="234" class="name">Pablo Henrique Oliveira</text>
+    <text x="80" y="310"><tspan class="prompt">~ $</tspan><tspan class="cmd"> cat foco.txt</tspan></text>
+    <text x="80" y="356" class="out">fullstack em transição · background em ciência de dados</text>
+    <text x="80" y="432"><tspan class="prompt">~ $</tspan><tspan class="cmd"> ls projetos/</tspan></text>
+    <text x="80" y="478" class="out">pending-reconciliation  crowslot  workflow-engine</text>
+    <text x="80" y="524" class="out">excel-sync-tool</text>
+  </g>
+</svg>
