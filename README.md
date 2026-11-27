@@ -91,8 +91,10 @@ Só entra aqui o que está em algum projeto acima.
 
 ## Como trabalho
 
-Este é o processo que adotei e que os projetos mais recentes já seguem. Ainda há histórico antigo de
-antes dele.
+Se você abrir o histórico dos meus repositórios mais antigos, vai encontrar commits como
+`Update arquivo.ts` feitos direto na `main`. Eu não escondo isso, porque é o ponto de partida. Desde
+então, mudei a forma de trabalhar, e os projetos recentes já mostram a diferença: Pull Requests, CI e
+decisões documentadas. Ainda erro, mas cada projeto sai mais bem feito que o anterior. Hoje sigo isto:
 
 - **Branch, Pull Request e CI verde antes de entrar na `main`,** com commits no padrão Conventional
   Commits.
