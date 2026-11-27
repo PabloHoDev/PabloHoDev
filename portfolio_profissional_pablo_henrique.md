@@ -46,16 +46,13 @@ automação de fluxos com arquivos. A apresentação conta essa origem
 > estar certas, dados que não podem se perder e sistemas que registram o
 > que fizeram.
 
-### Título profissional: pendente de decisão
+### Título profissional (decidido em 27/11/2026)
 
--   Este documento propunha **Software Engineer \| Backend**.
--   A bio atual do GitHub diz **Fullstack Developer in transition \|
-    Data Scientist background**.
--   Os repositórios mostram backend forte (Java/Spring, motores de
-    regra, Postgres), mas também aplicações Next.js completas.
-
-Proposta: **Desenvolvedor de software · backend, automação e dados**.
-Alinhar a bio do GitHub e o LinkedIn ao mesmo título.
+Usa o que está na bio do GitHub: **Fullstack Developer in transition \|
+Data Scientist background**. No README, em português: "fullstack em
+transição · background em ciência de dados", com o backend como ponto
+mais forte. A proposta anterior, "Software Engineer \| Backend", foi
+descartada.
 
 ### Princípio de comunicação
 
@@ -149,8 +146,10 @@ Projetos em destaque (revisado em 27/11/2026, na ordem do README):
 -   Motor de conciliação diária de um extrato com cerca de 40 mil
     repasses. É idempotente e transacional, usa Postgres em camadas com
     SCD2 e auditoria, e roda só com dados sintéticos.
--   Atenção: a descrição do repositório fala em "+ de 400 mil linhas" e
-    o README fala em "cerca de 40 mil". É preciso unificar.
+-   Volume: cerca de 40 mil num dia comum. Pode chegar a 150 mil, e a
+    400 mil só raramente, fora da rotina. No README: "cerca de 40 mil,
+    bem mais nos picos". A descrição do repositório ainda diz "+ de 400
+    mil linhas" e deve ser ajustada.
 
 #### crowslot-saas (em desenvolvimento)
 

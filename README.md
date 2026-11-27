@@ -1,9 +1,10 @@
 <img src="assets/header.svg" width="100%" alt="Terminal com os comandos whoami, cat foco.txt e ls projetos: Pablo Henrique Oliveira, backend, automação e dados.">
 
-Venho da análise de dados e da operação, onde todo dia chega uma base nova, a planilha de controle tem
+Venho da ciência de dados e da operação, onde todo dia chega uma base nova, a planilha de controle tem
 uma aba por equipe e alguém confere tudo linha por linha. Quase tudo o que está aqui nasceu desse tipo
-de problema. Hoje meu foco é **backend**: regras de negócio que precisam estar certas, dados que não
-podem se perder e sistemas que registram o que fizeram.
+de problema. Hoje estou em **transição para o desenvolvimento fullstack**, com o pé mais firme no
+backend: regras de negócio que precisam estar certas, dados que não podem se perder e sistemas que
+registram o que fizeram.
 
 ---
 
@@ -15,7 +16,8 @@ Cada projeto mostra a situação real dele. O que ainda não existe aparece como
 
 `em construção` · TypeScript · Node.js · Next.js · Drizzle · PostgreSQL · Vitest · Playwright
 
-**O problema:** todo dia um ERP exporta cerca de 40 mil repasses. Esse extrato precisa virar a lista de
+**O problema:** todo dia um ERP exporta um extrato de repasses. Num dia comum são cerca de 40 mil, e
+nos picos são bem mais. Esse extrato precisa virar a lista de
 pendências de cada parceiro. É preciso atualizar as que já estão em acompanhamento, arquivar as concluídas
 e separar as devolvidas, sem perder nenhum protocolo. Antes, isso era feito com planilhas e macros.<br>
 **O que construí:** um motor de conciliação idempotente e transacional, com regras versionadas. O
@@ -100,5 +102,4 @@ antes dele.
 
 ---
 
-[GitHub](https://github.com/PabloHoDev)
-<!-- TODO: adicionar o link do LinkedIn quando estiver confirmado, ex.: · [LinkedIn](https://www.linkedin.com/in/SEU-USUARIO) -->
+[LinkedIn](https://www.linkedin.com/in/pablo-henrique-oliveira-7a4610227/) · [GitHub](https://github.com/PabloHoDev)

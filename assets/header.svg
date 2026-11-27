@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="290" viewBox="0 0 860 290" role="img" aria-labelledby="title desc">
   <title id="title">Pablo Henrique Oliveira</title>
-  <desc id="desc">Terminal: whoami mostra Pablo Henrique Oliveira; o foco é backend, automação e dados; projetos em andamento: pending-reconciliation, crowslot, workflow-engine e excel-sync-tool.</desc>
+  <desc id="desc">Terminal: whoami mostra Pablo Henrique Oliveira; fullstack em transição, com background em ciência de dados; projetos em andamento: pending-reconciliation, crowslot, workflow-engine e excel-sync-tool.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, "Cascadia Code", Consolas, "Liberation Mono", monospace; font-size: 16px; }
     .prompt { fill: #3ddbb5; }
@@ -36,7 +36,7 @@
     <text x="24" y="104" class="name o1">Pablo Henrique Oliveira</text>
 
     <text x="24" y="142" class="c2"><tspan class="prompt">~ $</tspan><tspan class="cmd"> cat foco.txt</tspan></text>
-    <text x="24" y="168" class="out o2">backend · automação · dados</text>
+    <text x="24" y="168" class="out o2">fullstack em transição · background em ciência de dados</text>
 
     <text x="24" y="206" class="c3"><tspan class="prompt">~ $</tspan><tspan class="cmd"> ls projetos/</tspan></text>
     <text x="24" y="232" class="out o3">pending-reconciliation  crowslot  workflow-engine  excel-sync-tool</text>
