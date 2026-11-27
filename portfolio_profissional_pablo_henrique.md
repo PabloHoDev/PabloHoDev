@@ -286,48 +286,77 @@ O portfólio deverá seguir estes princípios:
 
 ## 7. Plano de execução
 
+Situação em 27/11/2026, no fechamento da v1.0.0.
+
 ### Fase 01 --- Identidade e posicionamento
 
--   [ ] Definir a mensagem principal.
--   [ ] Confirmar o título profissional.
--   [ ] Revisar o texto de apresentação.
--   [ ] Definir as áreas de atuação prioritárias.
--   [ ] Confirmar links profissionais.
+-   [x] Definir a mensagem principal: origem em dados e operação, foco
+    atual em backend.
+-   [x] Confirmar o título profissional: o mesmo da bio do GitHub.
+-   [x] Revisar o texto de apresentação.
+-   [x] Definir as áreas de atuação prioritárias.
+-   [x] Confirmar links profissionais: LinkedIn, GitHub e página "sobre
+    mim".
 
 ### Fase 02 --- Arquitetura do README
 
--   [ ] Definir a ordem das seções.
--   [ ] Organizar a stack por especialidade.
--   [ ] Selecionar os projetos em destaque.
--   [ ] Escrever descrições curtas e objetivas.
--   [ ] Definir a seção de experiência prática.
--   [ ] Definir a seção de projetos em andamento.
+-   [x] Definir a ordem das seções.
+-   [x] Organizar a stack por especialidade, com evidência.
+-   [x] Selecionar os projetos em destaque.
+-   [x] Escrever descrições curtas e objetivas.
+-   [ ] Definir a seção de experiência prática. **Adiada:** a abertura
+    do README já conta a origem. Uma seção própria fica para quando
+    houver resultados que possam ser divulgados sem dados da empresa.
+-   [x] Definir a seção de projetos em andamento: etiquetas de situação
+    em cada projeto.
 
 ### Fase 03 --- Identidade visual
 
--   [ ] Definir paleta de cores.
--   [ ] Escolher estilo de ícones e badges.
--   [ ] Criar cabeçalho visual.
--   [ ] Definir padrões para cards e divisórias.
--   [ ] Testar leitura em desktop e dispositivos móveis.
+-   [x] Definir paleta de cores: fundo `#0b0f14` / `#0f1419`, destaque
+    `#3ddbb5`.
+-   [x] Escolher estilo de ícones e badges: nenhum badge, só tabela com
+    evidência.
+-   [x] Criar cabeçalho visual (`assets/header.svg`).
+-   [x] Definir padrões para cards e divisórias.
+-   [x] Testar leitura em desktop e dispositivos móveis (1280, 375 e 320
+    px).
 
 ### Fase 04 --- Recursos dinâmicos
 
--   [ ] Avaliar animação de apresentação.
--   [ ] Integrar estatísticas do GitHub, se agregarem valor.
--   [ ] Avaliar cards de repositórios.
--   [ ] Testar recursos externos e definir alternativas.
--   [ ] Garantir que o README continue útil sem esses recursos.
+-   [x] Avaliar animação de apresentação: terminal animado uma vez, com
+    `prefers-reduced-motion`.
+-   [x] Integrar estatísticas do GitHub, se agregarem valor.
+    **Decidido não usar.**
+-   [x] Avaliar cards de repositórios. **Substituídos pelos repositórios
+    fixados no perfil.**
+-   [x] Testar recursos externos e definir alternativas: nenhum recurso
+    externo é usado.
+-   [x] Garantir que o README continue útil sem esses recursos.
 
 ### Fase 05 --- Publicação e manutenção
 
--   [ ] Criar o repositório especial com o mesmo nome de usuário do
-    GitHub.
--   [ ] Publicar o README.md.
--   [ ] Conferir links, imagens e badges.
--   [ ] Revisar a apresentação em diferentes tamanhos de tela.
--   [ ] Estabelecer uma rotina de atualização dos projetos e
-    informações.
+-   [x] Criar o repositório especial com o mesmo nome de usuário do
+    GitHub (`PabloHoDev/PabloHoDev`).
+-   [x] Publicar o README.md.
+-   [x] Publicar a página "sobre mim":
+    <https://pablohodev.github.io/PabloHoDev/>.
+-   [x] Conferir links, imagens e badges.
+-   [x] Revisar a apresentação em diferentes tamanhos de tela.
+-   [x] Estabelecer uma rotina de atualização (abaixo).
+
+### Rotina de atualização
+
+Ao começar, terminar ou mudar de fase um projeto em destaque, atualize
+estes lugares:
+
+1.  `README.md`: a etiqueta de situação e a descrição do projeto.
+2.  `docs/index.html`: a lista de `ls projetos/`.
+3.  `assets/header.svg`: a lista de `ls projetos/`.
+4.  `assets/og.svg`: depois de mudar, gere o `docs/og.png` de novo.
+5.  Os repositórios fixados no perfil do GitHub.
+
+Uma vez por trimestre, confira se a tabela de tecnologias ainda só
+mostra o que os projetos comprovam.
 
 ## 8. Decisões iniciais recomendadas
 
