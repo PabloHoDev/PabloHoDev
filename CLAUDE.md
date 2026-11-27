@@ -17,6 +17,7 @@ Não há build nem dependências. Qualquer merge na `main` vai direto para o per
 | `docs/index.html` | Página "sobre mim" (HTML e CSS num arquivo só, sem JS) |
 | `docs/og.png` | Imagem de compartilhamento, gerada a partir de `assets/og.svg` |
 | `portfolio_profissional_pablo_henrique.md` | Documento de concepção, com as fases e a rotina de atualização |
+| `divulgacao/` | Roteiros e legendas de posts, uma pasta por campanha. Os vídeos e imagens ficam fora do repositório. Não vai para o GitHub Pages |
 | `.github/` | CI, template de PR e templates de issue |
 
 ## Fluxo de trabalho
