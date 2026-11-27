@@ -1,0 +1,24 @@
+name: Problema
+description: Link quebrado, informação desatualizada ou algo errado na página.
+title: "fix: descrição curta"
+labels: [bug]
+body:
+  - type: input
+    id: onde
+    attributes:
+      label: Onde
+      description: README, página (docs/) ou documento de concepção. Cole o link, se tiver.
+    validations:
+      required: true
+  - type: textarea
+    id: o-que
+    attributes:
+      label: O que está errado
+      description: O que aparece hoje e o que deveria aparecer.
+    validations:
+      required: true
+  - type: input
+    id: dispositivo
+    attributes:
+      label: Dispositivo e navegador
+      description: Só se for um problema de visual na página.

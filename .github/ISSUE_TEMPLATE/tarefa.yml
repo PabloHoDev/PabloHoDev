@@ -1,0 +1,26 @@
+name: Tarefa
+description: Uma mudança no perfil, na página ou no documento de concepção.
+title: "tipo: descrição curta"
+body:
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: O que motivou a tarefa.
+    validations:
+      required: true
+  - type: textarea
+    id: fazer
+    attributes:
+      label: O que fazer
+      value: |
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: pronto
+    attributes:
+      label: Critério de pronto
+      description: Como saber que terminou.
+    validations:
+      required: true
